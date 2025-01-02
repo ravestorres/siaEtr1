@@ -1,0 +1,100 @@
+/* General Body Styling */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fa; /* Light gray background for overall site */
+  color: #333;
+}
+
+/* Navbar Customization */
+.navbar {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #ff0000 !important; /* Bootstrap primary color */
+}
+
+.navbar-nav .nav-link {
+  color: #555 !important;
+  margin-right: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff !important;
+}
+
+.navbar-nav .btn-success {
+  color: #fff !important;
+  border-radius: 20px;
+}
+
+/* Hero Section */
+.jumbotron {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/placeholder.jpg") no-repeat center center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.jumbotron .btn {
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+/* Categories Section */
+h2 {
+  font-weight: bold;
+  color: #3f5062;
+  margin-bottom: 1.5rem;
+}
+
+.section .container {
+  margin-top: 30px;
+}
+
+.img-fluid {
+  border: 2px solid #007bff;
+  padding: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.img-fluid:hover {
+  transform: scale(1.1);
+}
+
+h5 {
+  font-weight: bold;
+  margin-top: 10px;
+  color: #555;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .jumbotron {
+    padding: 2rem 1rem;
+  }
+
+  .navbar-nav .nav-link {
+    margin-right: 5px;
+  }
+
+  .img-fluid {
+    margin-bottom: 15px;
+  }
+}

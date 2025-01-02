@@ -1,0 +1,46 @@
+/* General Body Styling */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fa; /* Light gray background for overall site */
+}
+
+/* Card Styling */
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+/* Role Selection Styling */
+.form-check-inline {
+  margin-right: 20px;
+}
+
+/* Submit Button */
+#submitButton {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  padding: 12px;
+  font-weight: bold;
+}
+
+/* Social Login Button */
+.btn-light {
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  color: #495057;
+}
+
+.btn-light img {
+  margin-right: 10px;
+}
+
+/* Media Query for Small Screens */
+@media (max-width: 768px) {
+  .card {
+    margin-top: 20px;
+  }
+}
