@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero-section {
+    background:  no-repeat center center/cover;
+    color: white;
+    background-color: #2c9f1e;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.mission, .team {
+    padding: 50px 20px;
+}
+
+.team img {
+    border-radius: 50%;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+}
+/* Navbar Customization */
+.navbar {
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+font-weight: bold;
+font-size: 1.5rem;
+color: #000000 !important; /*Bootstrap primary color*/
+}
+
+.navbar-nav .nav-link {
+color: #555 !important;
+margin-right: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+color: #0acf03 !important;
+}
+
+.navbar-nav .btn-success {
+color: #fff !important;
+border-radius: 20px;
+}
+.navbar-nav {
+FONT-WEIGHT: 500;
+--bs-nav-link-padding-x: 0;
+--bs-nav-link-padding-y: 0.5rem;
+--bs-nav-link-font-weight: ;
+--bs-nav-link-color: var(--bs-navbar-color);
+--bs-nav-link-hover-color: var(--bs-navbar-hover-color);
+--bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
+display: flex
+;
+flex-direction: column;
+padding-left: 75%;
+margin-bottom: 0;
+list-style: none;
+}   
+.bg-primary {
+background-color: #2c9f1e !important;
+}
+
+.navbar-brand {
+font-weight: bold;
+font-size: 1.5rem;
+color: #000000 !important; /*Bootstrap primary color*/
+}
+.custom-btn:hover {
+    background-color: #005f00; /* Darker green on hover */
+}
+
+.custom-btn-container {
+    text-align: center;
+    margin-top: 50px;
+}
+.custom-title {
+    font-size: 36px;
+    color: #008000; /* Green */
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.custom-btn{
+    background-color: #2c9f1e;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 50px;
+    width: 150px;
+    border-color: #0acf03;
+}

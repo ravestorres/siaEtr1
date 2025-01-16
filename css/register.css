@@ -1,0 +1,89 @@
+body {
+    background-color: #f4f6f9;
+    font-family: 'Poppins', sans-serif;
+}
+
+.register-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+/* Green Register Button */
+.btn-primary {
+    background-color: #28a745; 
+    border-color: #28a745; 
+    width: 100%;
+    padding: 10px;
+}
+
+.btn-primary:hover {
+    background-color: #218838; 
+    border-color: #1e7e34; 
+}
+
+.btn-light {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-light:hover {
+    background-color: #f8f9fa;
+}
+
+.btn-light img {
+    margin-right: 10px;
+}
+
+.my-4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.separator-line {
+    flex-grow: 1;
+    border-top: 1px solid #ddd;
+}
+
+.separator-text {
+    margin: 0 10px;
+    font-weight: bold;
+    color: #666;
+}
+
+.btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+    width: 50%;
+    padding: 10px;
+    background-color: white;
+}
+
+.btn-outline-primary:hover {
+    color: white;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.navbar-brand {
+font-weight: bold;
+font-size: 1.5rem;
+color: #000000 !important; /
+}

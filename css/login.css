@@ -1,0 +1,96 @@
+body {
+    background-color: #f4f6f9;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    width: 100%;
+    padding: 10px;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.btn-outline-success {
+    color: #28a745;
+    border-color: #28a745;
+    width: 50%;
+    padding: 10px;
+    background-color: white;
+}
+
+.btn-outline-success:hover {
+    color: white;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.alert {
+    margin-bottom: 15px;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.separator-line {
+    flex-grow: 1;
+    border-top: 1px solid #ddd;
+}
+
+.separator-text {
+    margin: 0 10px;
+    font-weight: bold;
+    color: #666;
+}
+
+.btn-light {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-light:hover {
+    background-color: #f8f9fa;
+}
+
+.btn-light img {
+    margin-right: 10px;
+}
+
+.my-4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.extra-space {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bottom-separator {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
